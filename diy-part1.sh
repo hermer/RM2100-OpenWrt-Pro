@@ -17,8 +17,8 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Define My Package
-#git clone https://github.com/fw876/helloworld.git                                   package/molun/luci-app-ssr-plus
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                 package/molun/luci-app-adguardhome
-git clone https://github.com/1164715233/package.git package/luci-app-eqos
-git clone https://github.com/1164715233/package.git package/smartdns
-git clone https://github.com/1164715233/package.git package/luci-app-smartdns
+#git clone --depth=1 https://github.com/fw876/helloworld.git                                   package/molun/luci-app-ssr-plus
+#git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome.git                 package/molun/luci-app-adguardhome
+git clone --depth=1 https://github.com/1164715233/package.git package/luci-app-eqos
+git clone --depth=1 https://github.com/1164715233/package.git package/smartdns
+git clone --depth=1 https://github.com/1164715233/package.git package/luci-app-smartdns
